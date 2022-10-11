@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&family=Work+Sans:wght@300&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  z-index: 1;
+}
+
+
+#gameBoard {
+  width: 90vmin;
+  height: 90vmin;
+  background-color: black;
+  padding: 10px;
+  position: relative;
+}
+
+.character {
+  width: 7vmin;
+  height: 7vmin;
+  /* background-color: red; */
+  position: absolute;
+}
+
+.block {
+  width: 7vmin;
+  height: 7vmin;
+  /* background-color: blue; */
+  position: absolute;
+}
+
+#modal{
+  display: none;
+  width: 90vmin;
+  height: 90vmin;
+  padding: 10px;
+  position: relative;
+  background-color: black;
+}
+
+.game_description {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  font-family: 'Silkscreen', cursive;
+}
+
+.replay_choice {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.replay_choice a {
+  color: white;
+}
+
+#time_lived{
+  color: red;
+}
+
+.counter {
+  color: red;
+  position: absolute;
+  right: 0;
+  font-size: 20px;
+  font-family: 'Silkscreen', cursive;
+}
