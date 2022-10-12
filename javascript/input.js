@@ -1,4 +1,4 @@
-let hash = {
+let pressed = {
   'ArrowUp' : false,
   'ArrowDown' : false,
   'ArrowLeft' : false,
@@ -6,28 +6,29 @@ let hash = {
 }
 
 window.addEventListener('keydown', e => {
-  hash[e.key] = true
+  pressed[e.key] = true
 })
 
 
 window.addEventListener('keyup', e => {
-  hash[e.key] = false
+  pressed[e.key] = false
 })
 
 
 
 export function getInputDirection() {
   let result = { x:0, y:0 }
-  if (hash['ArrowUp']) {
+  
+  if (pressed['ArrowUp']) {
     result.y = -5;
   }
-  if (hash['ArrowDown']) {
+  if (pressed['ArrowDown']) {
     result.y = 5;
   }
-  if (hash['ArrowLeft']) {
+  if (pressed['ArrowLeft']) {
     result.x = -5;
   }
-  if (hash['ArrowRight']) {
+  if (pressed['ArrowRight']) {
     result.x = 5;
   }
 
