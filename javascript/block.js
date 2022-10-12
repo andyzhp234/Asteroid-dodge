@@ -7,7 +7,7 @@ let height = gameboard.clientHeight - gameboard.clientHeight/18;
 
 // initialized the block (enemy)
 export const block = []
-for (let i = 0; i < 1; i++) {
+for (let i = 0; i < 10; i++) {
   block.push({ x: Math.random()*width, y: 0, speed: (Math.random()*4 + 5)})
 }
 
