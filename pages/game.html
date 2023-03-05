@@ -1,18 +1,27 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Asteroid Dodge is a fast-paced mini-game where you pilot a spaceship
-       through an asteroid field, dodging incoming space rocks to stay alive."
-    />
     <title>Asteroid Dodge</title>
-    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../javascript/game.js" defer type="module"></script>
   </head>
   <body>
-    <script src="../js/game.js"></script>
+    <div id="gameBoard"></div>
+    <div id="modal">
+      <div class="game_description">
+        <div>OH NO YOU CRASHED</div>
+        <div>
+          You managed to survived <span id="time_lived"></span> seconds.
+        </div>
+        <div>Do you want to try again?</div>
+
+        <div class="replay_choice">
+          <a href="/pages/game.html">YES!</a>
+          <a href="/index.html">NO!</a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

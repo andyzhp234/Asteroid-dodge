@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Silkscreen&family=Work+Sans:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&family=Work+Sans:wght@300&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -9,9 +10,42 @@ body {
   align-items: center;
   justify-content: center;
   background-color: black;
-  z-index: 1;
+  font-family: "Silkscreen", cursive;
 }
 
+.body_container {
+  width: 40%;
+  height: 30%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+}
+
+.start_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 30%;
+  height: 15%;
+  background-color: gray;
+  text-decoration: none;
+  color: black;
+}
+.game_description {
+  text-align: center;
+}
+
+.reference {
+  font-size: 10px;
+  margin-top: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
 
 #gameBoard {
   width: 90vmin;
@@ -24,18 +58,16 @@ body {
 .character {
   width: 7vmin;
   height: 7vmin;
-  /* background-color: red; */
   position: absolute;
 }
 
 .block {
   width: 7vmin;
   height: 7vmin;
-  /* background-color: blue; */
   position: absolute;
 }
 
-#modal{
+#modal {
   display: none;
   width: 90vmin;
   height: 90vmin;
@@ -51,10 +83,11 @@ body {
   justify-content: center;
   flex-direction: column;
   color: white;
-  font-family: 'Silkscreen', cursive;
+  font-family: "Silkscreen", cursive;
 }
 
 .replay_choice {
+  margin-top: 20px;
   display: flex;
   width: 100%;
   justify-content: space-evenly;
@@ -65,7 +98,7 @@ body {
   color: white;
 }
 
-#time_lived{
+#time_lived {
   color: red;
 }
 
@@ -74,5 +107,5 @@ body {
   position: absolute;
   right: 0;
   font-size: 20px;
-  font-family: 'Silkscreen', cursive;
+  font-family: "Silkscreen", cursive;
 }
