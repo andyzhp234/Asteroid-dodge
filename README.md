@@ -1,4 +1,4 @@
-# :space_invader: Into The Space (mini-game)
+# 👾 Asteroid Dodge (JS Mini-game)
 
 # Demo:
 
@@ -6,27 +6,17 @@ Live: https://andyzhp234.github.io/Into-the-space/
 
 # Game Description:
 
-Looking for Adventures?? <br />
-Looking for game where you can explore endless spaces?? <br />
-This game is the right game for you ! <br />
-
-#### Your goal is to try survive as long as possible by dodging Meteorites <br />
+Asteroid Dodge is an arcade-style game where the player controls a spaceship and must navigate through an asteroid field while avoiding collisions with the rocks. The objective of the game is to survive as long as possible and score as many points as possible by destroying asteroids and dodging obstacles.
 
 # Control:
 
-- W to move spaceship Up
-- S to move spaceship Down
-- A to move spaceship Left
-- D to move spaceship Right
+- W: Move spaceship up
+- S: Move spaceship down
+- A: Move spaceship left
+- D: Move spaceship right
 
-# Tools:
+# Technologies:
 
-- Vanilla Javascript
 - HTML
 - CSS
-
-# Screenshots
-
-<img src="./docs/images/home.png" alt="home_png"/>
-<img src="./docs/images/game.png" alt="home_png"/>
-<img src="./docs/images/game_end.png" alt="home_png"/>
+- Javascript
