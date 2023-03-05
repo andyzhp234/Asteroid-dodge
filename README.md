@@ -2,7 +2,7 @@
 
 # Demo:
 
-Live: https://andyzhp234.github.io/Into-the-space/
+Live: https://asteroid-dodge.netlify.app/
 
 # Game Description:
 
@@ -18,14 +18,8 @@ Asteroid Dodge is an arcade-style game where the player controls a spaceship and
 # Screenshots:
 
 <img src="./assets/home.png"  alt="screenshots" />
-<br />
-<br />
 <img src="./assets/game.png"  alt="screenshots" />
-<br />
-<br />
 <img src="./assets/game_end.png"  alt="screenshots" />
-<br />
-<br />
 
 # Technologies:
 
